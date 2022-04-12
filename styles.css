@@ -63,10 +63,24 @@ body{
     border-radius: .2rem;
     border-color: var(--contrast-color);
     font-weight: bold;
+
 }
 
 .start__button:hover,
 .next__button:hover,
 .answer__button:hover{
     transform: scale(1.05);
+}
+
+.answer__button.corect{
+    background-color: var(--correct-answer-color);
+}
+
+
+.answer__button.wrong{
+    background-color: var(--wrong-answer-color);
+}
+
+.hide{
+    display: none;
 }
